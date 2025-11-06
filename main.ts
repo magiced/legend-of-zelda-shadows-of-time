@@ -1,0 +1,5 @@
+let mySprite = sprites.create(assets.image`link`, SpriteKind.Player)
+controller.moveSprite(mySprite)
+info.setLife(3)
+tiles.setCurrentTilemap(tilemap`level1`)
+scene.cameraFollowSprite(mySprite)
